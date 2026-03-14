@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MemberFlow.Api/MemberFlow.Api.csproj" />
+  <Project Path="MemberFlow.Application/MemberFlow.Application.csproj" />
+  <Project Path="MemberFlow.Domain/MemberFlow.Domain.csproj" />
+  <Project Path="MemberFlow.Infrastructure/MemberFlow.Infrastructure.csproj" />
+</Solution>
