@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FinancialManagement.Api/FinancialManagement.Api.csproj" />
+  <Project Path="FinancialManagement.Application/FinancialManagement.Application.csproj" />
+  <Project Path="FinancialManagement.Domain/FinancialManagement.Domain.csproj" />
+  <Project Path="FinancialManagement.Infrastructure/FinancialManagement.Infrastructure.csproj" />
+</Solution>
