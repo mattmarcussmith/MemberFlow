@@ -29,14 +29,14 @@ namespace FinancialManagement.Infrastructure.Service
                 throw new UnauthorizedAccessException("User does not have a valid ObjectId.");
             }
 
-            var name = user?.FindFirst(ClaimTypesConstants.Name)?.Value;
+            var givenName = user?.FindFirst(ClaimTypesConstants.GivenName)?.Value;
             var preferredUsername = user?.FindFirst(ClaimTypesConstants.PreferredUsername)?.Value;
             var email = user?.FindFirst(ClaimTypesConstants.Email)?.Value;
             var role = user?.FindFirst(ClaimTypesConstants.Role)?.Value;
 
             var response = new GetCurrentUserResponseDto
             {
-                Name = name,
+                GivenName = givenName,
                 PreferredUsername = preferredUsername,
                 Email = email,
                 IdentityProviderId = objectId,

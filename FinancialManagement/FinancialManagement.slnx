@@ -3,4 +3,5 @@
   <Project Path="FinancialManagement.Application/FinancialManagement.Application.csproj" />
   <Project Path="FinancialManagement.Domain/FinancialManagement.Domain.csproj" />
   <Project Path="FinancialManagement.Infrastructure/FinancialManagement.Infrastructure.csproj" />
+  <Project Path="FinancialManagement.Ui/FinancialManagement.Ui.csproj" Id="9cb8f1e7-3646-4393-823e-fcfc2918609d" />
 </Solution>
